@@ -78,7 +78,7 @@ myObj = {
 
 
 for(i in myObj.clients.stations) {
-x += '<img id="logo" src="' + myObj.clients.stations[i].logo + '">'+ "<br>" + "<h2>Stations: </h2>" + myObj.clients.stations[i].title +  "<br>" + "<h2>Description: </h2>" + myObj.clients.stations[i].description + "<br>" + "<h2>Address: </h2> " + myObj.clients.stations[i].address.street + "<br>" +  myObj.clients.stations[i].address.city + "<br>"  + myObj.clients.stations[i].address.state + "<br>" +  myObj.clients.stations[i].address.zip + "<br>";
+x += '<img src="' + myObj.clients.stations[i].logo + '">'+ "<br>" + "<h2>Stations: </h2>" + myObj.clients.stations[i].title +  "<br>" + "<h2>Description: </h2>" + myObj.clients.stations[i].description + "<br>" + "<h2>Address: </h2> " + myObj.clients.stations[i].address.street + "<br>" +  myObj.clients.stations[i].address.city + "<br>"  + myObj.clients.stations[i].address.state + "<br>" +  myObj.clients.stations[i].address.zip + "<br>";
 }  
 
 document.getElementById("station").innerHTML = x;
